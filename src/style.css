@@ -1,0 +1,41 @@
+:root {
+    --primary-color : rgb(201, 156, 115);
+    --secondary-color : rgb(230, 193, 157);
+}
+body{
+    background-color:  var(--primary-color);
+    margin: 0;
+}
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+.search{
+    background-color: transparent;
+    border: 4px solid var(--primary-color);
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 12px;
+    color: white;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movie{
+    width: 300px;
+    margin: 10px;
+    background-color: var(--secondary-color);
+    border-radius: 3px;
+}
+.movie img{
+    width: 100%;
+}
+.movie.info{
+    color: white;
+    padding: px;
+    font-weight: 150;
+}
