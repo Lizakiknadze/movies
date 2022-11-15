@@ -34,8 +34,21 @@ main{
 .movie img{
     width: 100%;
 }
-.movie.info{
-    color: white;
-    padding: px;
+.movie-info{
+    color: var(--primary-color);
+    padding: 17px;
     font-weight: 150;
 }
+/* .movie-info span{
+    border: 15px;
+    border-width: 100%;
+}
+.movie-info span.green{
+    color: green;
+}
+.movie-info span.yellow{
+    color: yellow;
+}
+.movie-info span.red{
+    color: red;
+} */
